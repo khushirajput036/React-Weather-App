@@ -1,0 +1,60 @@
+*
+{
+  padding:0px;
+  margin:0px;
+}
+
+body
+{
+  background:#ADD8E6;
+}
+
+.container
+{
+  text-align:center;
+}
+
+h1 {
+  color: white; 
+  margin-top: 60px; 
+  margin-left: 44%; 
+  margin-bottom: 45px; 
+}
+div input
+{
+  margin-left:42%;
+  padding:10px;
+  border:none;
+  width:15%;
+  border-radius:4px;
+}
+
+div button
+{
+  padding:10px;
+  margin-left:1%;
+  margin-right:4px;
+  border:none;
+  border-radius:4px;
+  background:blue;
+  color:white;
+}
+
+div button:hover {
+  background: darkblue; 
+}
+div input:focus {
+  outline: none; 
+  border: 2px solid blue; 
+}
+
+#degree
+{
+  background:white;
+  width:30%;
+  margin-left:37%;
+  text-align:center;
+  padding:10px;
+  border-radius:8px;
+  margin-top:20px;
+}
